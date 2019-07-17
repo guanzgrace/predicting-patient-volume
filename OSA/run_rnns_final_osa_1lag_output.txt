@@ -1,0 +1,380 @@
+
+
+OSA-RNN-1DayLag-AllVisits
+Trial 1
+WARNING:tensorflow:From /home/ec2-user/venv/python3/local/lib/python3.6/site-packages/tensorflow/python/ops/resource_variable_ops.py:435: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+WARNING:tensorflow:From /home/ec2-user/venv/python3/local/lib/python3.6/site-packages/tensorflow/python/keras/utils/losses_utils.py:170: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+WARNING:tensorflow:From /home/ec2-user/venv/python3/local/lib/python3.6/site-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-07-06 02:15:31.812661: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-07-06 02:15:31.818366: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2300045000 Hz
+2019-07-06 02:15:31.818930: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x4bb5cd0 executing computations on platform Host. Devices:
+2019-07-06 02:15:31.818954: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+
+...................................................Completed up to 2018-01-01 00:00:00; last took 3.52 seconds
+Completed up to 2018-01-15 00:00:00; last took 0.01 seconds
+Completed up to 2018-01-29 00:00:00; last took 0.01 seconds
+Completed up to 2018-02-12 00:00:00; last took 0.01 seconds
+Completed up to 2018-02-26 00:00:00; last took 0.01 seconds
+Completed up to 2018-03-13 00:00:00; last took 0.01 seconds
+Completed up to 2018-03-27 00:00:00; last took 0.01 seconds
+Completed up to 2018-04-10 00:00:00; last took 0.01 seconds
+Completed up to 2018-04-24 00:00:00; last took 0.01 seconds
+Completed up to 2018-05-08 00:00:00; last took 0.01 seconds
+Completed up to 2018-05-22 00:00:00; last took 0.01 seconds
+Completed up to 2018-06-05 00:00:00; last took 0.01 seconds
+Completed up to 2018-06-19 00:00:00; last took 0.01 seconds
+Completed up to 2018-07-03 00:00:00; last took 0.01 seconds
+Completed up to 2018-07-17 00:00:00; last took 0.01 seconds
+Completed up to 2018-07-31 00:00:00; last took 0.01 seconds
+Completed up to 2018-08-14 00:00:00; last took 0.01 seconds
+Completed up to 2018-08-28 00:00:00; last took 0.01 seconds
+Completed up to 2018-09-11 00:00:00; last took 0.01 seconds
+Trial completed in 446.59 s
+Average MSE so far: 0.785 (0.000)
+Trial 2
+
+..........................................................................................Completed up to 2018-01-01 00:00:00; last took 4.98 seconds
+Completed up to 2018-01-15 00:00:00; last took 0.01 seconds
+Completed up to 2018-01-29 00:00:00; last took 0.01 seconds
+Completed up to 2018-02-12 00:00:00; last took 0.01 seconds
+Completed up to 2018-02-26 00:00:00; last took 0.01 seconds
+Completed up to 2018-03-13 00:00:00; last took 0.01 seconds
+Completed up to 2018-03-27 00:00:00; last took 0.01 seconds
+Completed up to 2018-04-10 00:00:00; last took 0.01 seconds
+Completed up to 2018-04-24 00:00:00; last took 0.01 seconds
+Completed up to 2018-05-08 00:00:00; last took 0.01 seconds
+Completed up to 2018-05-22 00:00:00; last took 0.01 seconds
+Completed up to 2018-06-05 00:00:00; last took 0.01 seconds
+Completed up to 2018-06-19 00:00:00; last took 0.01 seconds
+Completed up to 2018-07-03 00:00:00; last took 0.01 seconds
+Completed up to 2018-07-17 00:00:00; last took 0.01 seconds
+Completed up to 2018-07-31 00:00:00; last took 0.01 seconds
+Completed up to 2018-08-14 00:00:00; last took 0.01 seconds
+Completed up to 2018-08-28 00:00:00; last took 0.01 seconds
+Completed up to 2018-09-11 00:00:00; last took 0.01 seconds
+Trial completed in 812.72 s
+Average MSE so far: 0.780 (0.005)
+Trial 3
+
+....................................................................................................
+....................................................................................................
+.........................Completed up to 2018-01-01 00:00:00; last took 8.49 seconds
+Completed up to 2018-01-15 00:00:00; last took 0.01 seconds
+Completed up to 2018-01-29 00:00:00; last took 0.01 seconds
+Completed up to 2018-02-12 00:00:00; last took 0.01 seconds
+Completed up to 2018-02-26 00:00:00; last took 0.01 seconds
+Completed up to 2018-03-13 00:00:00; last took 0.01 seconds
+Completed up to 2018-03-27 00:00:00; last took 0.01 seconds
+Completed up to 2018-04-10 00:00:00; last took 0.01 seconds
+Completed up to 2018-04-24 00:00:00; last took 0.01 seconds
+Completed up to 2018-05-08 00:00:00; last took 0.01 seconds
+Completed up to 2018-05-22 00:00:00; last took 0.01 seconds
+Completed up to 2018-06-05 00:00:00; last took 0.01 seconds
+Completed up to 2018-06-19 00:00:00; last took 0.01 seconds
+Completed up to 2018-07-03 00:00:00; last took 0.01 seconds
+Completed up to 2018-07-17 00:00:00; last took 0.01 seconds
+Completed up to 2018-07-31 00:00:00; last took 0.01 seconds
+Completed up to 2018-08-14 00:00:00; last took 0.01 seconds
+Completed up to 2018-08-28 00:00:00; last took 0.01 seconds
+Completed up to 2018-09-11 00:00:00; last took 0.01 seconds
+Trial completed in 2038.74 s
+Average MSE so far: 0.758 (0.032)
+Trial 4
+
+....................................................................................Completed up to 2018-01-01 00:00:00; last took 9.67 seconds
+Completed up to 2018-01-15 00:00:00; last took 0.01 seconds
+Completed up to 2018-01-29 00:00:00; last took 0.03 seconds
+Completed up to 2018-02-12 00:00:00; last took 0.03 seconds
+Completed up to 2018-02-26 00:00:00; last took 0.04 seconds
+Completed up to 2018-03-13 00:00:00; last took 0.01 seconds
+Completed up to 2018-03-27 00:00:00; last took 0.02 seconds
+Completed up to 2018-04-10 00:00:00; last took 0.03 seconds
+Completed up to 2018-04-24 00:00:00; last took 0.02 seconds
+Completed up to 2018-05-08 00:00:00; last took 0.03 seconds
+Completed up to 2018-05-22 00:00:00; last took 0.02 seconds
+Completed up to 2018-06-05 00:00:00; last took 0.03 seconds
+Completed up to 2018-06-19 00:00:00; last took 0.02 seconds
+Completed up to 2018-07-03 00:00:00; last took 0.02 seconds
+Completed up to 2018-07-17 00:00:00; last took 0.03 seconds
+Completed up to 2018-07-31 00:00:00; last took 0.05 seconds
+Completed up to 2018-08-14 00:00:00; last took 0.02 seconds
+Completed up to 2018-08-28 00:00:00; last took 0.02 seconds
+Completed up to 2018-09-11 00:00:00; last took 0.04 seconds
+Trial completed in 1628.12 s
+Average MSE so far: 0.765 (0.030)
+Trial 5
+
+........................................................Completed up to 2018-01-01 00:00:00; last took 12.35 seconds
+Completed up to 2018-01-15 00:00:00; last took 0.03 seconds
+Completed up to 2018-01-29 00:00:00; last took 0.03 seconds
+Completed up to 2018-02-12 00:00:00; last took 0.02 seconds
+Completed up to 2018-02-26 00:00:00; last took 0.04 seconds
+Completed up to 2018-03-13 00:00:00; last took 0.04 seconds
+Completed up to 2018-03-27 00:00:00; last took 0.02 seconds
+Completed up to 2018-04-10 00:00:00; last took 0.03 seconds
+Completed up to 2018-04-24 00:00:00; last took 0.03 seconds
+Completed up to 2018-05-08 00:00:00; last took 0.04 seconds
+Completed up to 2018-05-22 00:00:00; last took 0.02 seconds
+Completed up to 2018-06-05 00:00:00; last took 0.02 seconds
+Completed up to 2018-06-19 00:00:00; last took 0.02 seconds
+Completed up to 2018-07-03 00:00:00; last took 0.02 seconds
+Completed up to 2018-07-17 00:00:00; last took 0.02 seconds
+Completed up to 2018-07-31 00:00:00; last took 0.03 seconds
+Completed up to 2018-08-14 00:00:00; last took 0.02 seconds
+Completed up to 2018-08-28 00:00:00; last took 0.03 seconds
+Completed up to 2018-09-11 00:00:00; last took 0.03 seconds
+Trial completed in 1153.14 s
+Average MSE so far: 0.767 (0.027)
+MSE and RMSE over 10 trials with standard deviation in parentheses
+Average MSE: 0.767 (0.027)
+Average RMSE: 0.876 (0.016)
+
+
+
+OSA-RNN-1DayLag-Resp
+Trial 1
+
+...............................................Completed up to 2018-01-01 00:00:00; last took 15.04 seconds
+Completed up to 2018-01-15 00:00:00; last took 0.01 seconds
+Completed up to 2018-01-29 00:00:00; last took 0.01 seconds
+Completed up to 2018-02-12 00:00:00; last took 0.05 seconds
+Completed up to 2018-02-26 00:00:00; last took 0.03 seconds
+Completed up to 2018-03-13 00:00:00; last took 0.03 seconds
+Completed up to 2018-03-27 00:00:00; last took 0.03 seconds
+Completed up to 2018-04-10 00:00:00; last took 0.03 seconds
+Completed up to 2018-04-24 00:00:00; last took 0.03 seconds
+Completed up to 2018-05-08 00:00:00; last took 0.02 seconds
+Completed up to 2018-05-22 00:00:00; last took 0.02 seconds
+Completed up to 2018-06-05 00:00:00; last took 0.03 seconds
+Completed up to 2018-06-19 00:00:00; last took 0.03 seconds
+Completed up to 2018-07-03 00:00:00; last took 0.04 seconds
+Completed up to 2018-07-17 00:00:00; last took 0.02 seconds
+Completed up to 2018-07-31 00:00:00; last took 0.03 seconds
+Completed up to 2018-08-14 00:00:00; last took 0.02 seconds
+Completed up to 2018-08-28 00:00:00; last took 0.01 seconds
+Completed up to 2018-09-11 00:00:00; last took 0.03 seconds
+Trial completed in 1035.52 s
+Average MSE so far: 0.296 (0.000)
+Trial 2
+
+..........................................Completed up to 2018-01-01 00:00:00; last took 16.56 seconds
+Completed up to 2018-01-15 00:00:00; last took 0.03 seconds
+Completed up to 2018-01-29 00:00:00; last took 0.02 seconds
+Completed up to 2018-02-12 00:00:00; last took 0.03 seconds
+Completed up to 2018-02-26 00:00:00; last took 0.01 seconds
+Completed up to 2018-03-13 00:00:00; last took 0.03 seconds
+Completed up to 2018-03-27 00:00:00; last took 0.04 seconds
+Completed up to 2018-04-10 00:00:00; last took 0.03 seconds
+Completed up to 2018-04-24 00:00:00; last took 0.02 seconds
+Completed up to 2018-05-08 00:00:00; last took 0.02 seconds
+Completed up to 2018-05-22 00:00:00; last took 0.03 seconds
+Completed up to 2018-06-05 00:00:00; last took 0.03 seconds
+Completed up to 2018-06-19 00:00:00; last took 0.04 seconds
+Completed up to 2018-07-03 00:00:00; last took 0.02 seconds
+Completed up to 2018-07-17 00:00:00; last took 0.02 seconds
+Completed up to 2018-07-31 00:00:00; last took 0.03 seconds
+Completed up to 2018-08-14 00:00:00; last took 0.04 seconds
+Completed up to 2018-08-28 00:00:00; last took 0.04 seconds
+Completed up to 2018-09-11 00:00:00; last took 0.03 seconds
+Trial completed in 895.71 s
+Average MSE so far: 0.293 (0.003)
+Trial 3
+
+..........................................Completed up to 2018-01-01 00:00:00; last took 20.59 seconds
+Completed up to 2018-01-15 00:00:00; last took 0.03 seconds
+Completed up to 2018-01-29 00:00:00; last took 0.03 seconds
+Completed up to 2018-02-12 00:00:00; last took 0.02 seconds
+Completed up to 2018-02-26 00:00:00; last took 0.02 seconds
+Completed up to 2018-03-13 00:00:00; last took 0.03 seconds
+Completed up to 2018-03-27 00:00:00; last took 0.03 seconds
+Completed up to 2018-04-10 00:00:00; last took 0.02 seconds
+Completed up to 2018-04-24 00:00:00; last took 0.03 seconds
+Completed up to 2018-05-08 00:00:00; last took 0.04 seconds
+Completed up to 2018-05-22 00:00:00; last took 0.03 seconds
+Completed up to 2018-06-05 00:00:00; last took 0.02 seconds
+Completed up to 2018-06-19 00:00:00; last took 0.04 seconds
+Completed up to 2018-07-03 00:00:00; last took 0.02 seconds
+Completed up to 2018-07-17 00:00:00; last took 0.02 seconds
+Completed up to 2018-07-31 00:00:00; last took 0.04 seconds
+Completed up to 2018-08-14 00:00:00; last took 0.03 seconds
+Completed up to 2018-08-28 00:00:00; last took 0.04 seconds
+Completed up to 2018-09-11 00:00:00; last took 0.03 seconds
+Trial completed in 947.47 s
+Average MSE so far: 0.293 (0.002)
+Trial 4
+
+................................................Completed up to 2018-01-01 00:00:00; last took 22.44 seconds
+Completed up to 2018-01-15 00:00:00; last took 0.03 seconds
+Completed up to 2018-01-29 00:00:00; last took 0.04 seconds
+Completed up to 2018-02-12 00:00:00; last took 0.03 seconds
+Completed up to 2018-02-26 00:00:00; last took 0.03 seconds
+Completed up to 2018-03-13 00:00:00; last took 0.03 seconds
+Completed up to 2018-03-27 00:00:00; last took 0.03 seconds
+Completed up to 2018-04-10 00:00:00; last took 0.02 seconds
+Completed up to 2018-04-24 00:00:00; last took 0.04 seconds
+Completed up to 2018-05-08 00:00:00; last took 0.01 seconds
+Completed up to 2018-05-22 00:00:00; last took 0.01 seconds
+Completed up to 2018-06-05 00:00:00; last took 0.02 seconds
+Completed up to 2018-06-19 00:00:00; last took 0.02 seconds
+Completed up to 2018-07-03 00:00:00; last took 0.01 seconds
+Completed up to 2018-07-17 00:00:00; last took 0.03 seconds
+Completed up to 2018-07-31 00:00:00; last took 0.03 seconds
+Completed up to 2018-08-14 00:00:00; last took 0.03 seconds
+Completed up to 2018-08-28 00:00:00; last took 0.02 seconds
+Completed up to 2018-09-11 00:00:00; last took 0.03 seconds
+Trial completed in 1028.35 s
+Average MSE so far: 0.293 (0.002)
+Trial 5
+
+...........................................................................Completed up to 2018-01-01 00:00:00; last took 28.12 seconds
+Completed up to 2018-01-15 00:00:00; last took 0.01 seconds
+Completed up to 2018-01-29 00:00:00; last took 0.01 seconds
+Completed up to 2018-02-12 00:00:00; last took 0.02 seconds
+Completed up to 2018-02-26 00:00:00; last took 0.01 seconds
+Completed up to 2018-03-13 00:00:00; last took 0.02 seconds
+Completed up to 2018-03-27 00:00:00; last took 0.01 seconds
+Completed up to 2018-04-10 00:00:00; last took 0.01 seconds
+Completed up to 2018-04-24 00:00:00; last took 0.01 seconds
+Completed up to 2018-05-08 00:00:00; last took 0.01 seconds
+Completed up to 2018-05-22 00:00:00; last took 0.01 seconds
+Completed up to 2018-06-05 00:00:00; last took 0.01 seconds
+Completed up to 2018-06-19 00:00:00; last took 0.01 seconds
+Completed up to 2018-07-03 00:00:00; last took 0.01 seconds
+Completed up to 2018-07-17 00:00:00; last took 0.01 seconds
+Completed up to 2018-07-31 00:00:00; last took 0.01 seconds
+Completed up to 2018-08-14 00:00:00; last took 0.01 seconds
+Completed up to 2018-08-28 00:00:00; last took 0.01 seconds
+Completed up to 2018-09-11 00:00:00; last took 0.01 seconds
+Trial completed in 1735.75 s
+Average MSE so far: 0.288 (0.009)
+MSE and RMSE over 10 trials with standard deviation in parentheses
+Average MSE: 0.288 (0.009)
+Average RMSE: 0.537 (0.008)
+
+
+
+OSA-RNN-1DayLag-NonResp
+Trial 1
+
+........................................Completed up to 2018-01-01 00:00:00; last took 29.26 seconds
+Completed up to 2018-01-15 00:00:00; last took 0.01 seconds
+Completed up to 2018-01-29 00:00:00; last took 0.01 seconds
+Completed up to 2018-02-12 00:00:00; last took 0.01 seconds
+Completed up to 2018-02-26 00:00:00; last took 0.01 seconds
+Completed up to 2018-03-13 00:00:00; last took 0.01 seconds
+Completed up to 2018-03-27 00:00:00; last took 0.01 seconds
+Completed up to 2018-04-10 00:00:00; last took 0.01 seconds
+Completed up to 2018-04-24 00:00:00; last took 0.01 seconds
+Completed up to 2018-05-08 00:00:00; last took 0.01 seconds
+Completed up to 2018-05-22 00:00:00; last took 0.01 seconds
+Completed up to 2018-06-05 00:00:00; last took 0.01 seconds
+Completed up to 2018-06-19 00:00:00; last took 0.01 seconds
+Completed up to 2018-07-03 00:00:00; last took 0.01 seconds
+Completed up to 2018-07-17 00:00:00; last took 0.01 seconds
+Completed up to 2018-07-31 00:00:00; last took 0.01 seconds
+Completed up to 2018-08-14 00:00:00; last took 0.01 seconds
+Completed up to 2018-08-28 00:00:00; last took 0.01 seconds
+Completed up to 2018-09-11 00:00:00; last took 0.01 seconds
+Trial completed in 930.13 s
+Average MSE so far: 0.291 (0.000)
+Trial 2
+
+..........................................Completed up to 2018-01-01 00:00:00; last took 32.48 seconds
+Completed up to 2018-01-15 00:00:00; last took 0.05 seconds
+Completed up to 2018-01-29 00:00:00; last took 0.02 seconds
+Completed up to 2018-02-12 00:00:00; last took 0.05 seconds
+Completed up to 2018-02-26 00:00:00; last took 0.02 seconds
+Completed up to 2018-03-13 00:00:00; last took 0.03 seconds
+Completed up to 2018-03-27 00:00:00; last took 0.04 seconds
+Completed up to 2018-04-10 00:00:00; last took 0.04 seconds
+Completed up to 2018-04-24 00:00:00; last took 0.04 seconds
+Completed up to 2018-05-08 00:00:00; last took 0.03 seconds
+Completed up to 2018-05-22 00:00:00; last took 0.04 seconds
+Completed up to 2018-06-05 00:00:00; last took 0.02 seconds
+Completed up to 2018-06-19 00:00:00; last took 0.02 seconds
+Completed up to 2018-07-03 00:00:00; last took 0.05 seconds
+Completed up to 2018-07-17 00:00:00; last took 0.04 seconds
+Completed up to 2018-07-31 00:00:00; last took 0.03 seconds
+Completed up to 2018-08-14 00:00:00; last took 0.05 seconds
+Completed up to 2018-08-28 00:00:00; last took 0.02 seconds
+Completed up to 2018-09-11 00:00:00; last took 0.04 seconds
+Trial completed in 1018.56 s
+Average MSE so far: 0.291 (0.000)
+Trial 3
+
+...............................................Completed up to 2018-01-01 00:00:00; last took 36.01 seconds
+Completed up to 2018-01-15 00:00:00; last took 0.01 seconds
+Completed up to 2018-01-29 00:00:00; last took 0.01 seconds
+Completed up to 2018-02-12 00:00:00; last took 0.01 seconds
+Completed up to 2018-02-26 00:00:00; last took 0.01 seconds
+Completed up to 2018-03-13 00:00:00; last took 0.01 seconds
+Completed up to 2018-03-27 00:00:00; last took 0.01 seconds
+Completed up to 2018-04-10 00:00:00; last took 0.01 seconds
+Completed up to 2018-04-24 00:00:00; last took 0.01 seconds
+Completed up to 2018-05-08 00:00:00; last took 0.01 seconds
+Completed up to 2018-05-22 00:00:00; last took 0.01 seconds
+Completed up to 2018-06-05 00:00:00; last took 0.01 seconds
+Completed up to 2018-06-19 00:00:00; last took 0.01 seconds
+Completed up to 2018-07-03 00:00:00; last took 0.01 seconds
+Completed up to 2018-07-17 00:00:00; last took 0.01 seconds
+Completed up to 2018-07-31 00:00:00; last took 0.01 seconds
+Completed up to 2018-08-14 00:00:00; last took 0.01 seconds
+Completed up to 2018-08-28 00:00:00; last took 0.01 seconds
+Completed up to 2018-09-11 00:00:00; last took 0.02 seconds
+Trial completed in 1090.17 s
+Average MSE so far: 0.293 (0.002)
+Trial 4
+
+..........................................Completed up to 2018-01-01 00:00:00; last took 38.89 seconds
+Completed up to 2018-01-15 00:00:00; last took 0.02 seconds
+Completed up to 2018-01-29 00:00:00; last took 0.03 seconds
+Completed up to 2018-02-12 00:00:00; last took 0.03 seconds
+Completed up to 2018-02-26 00:00:00; last took 0.04 seconds
+Completed up to 2018-03-13 00:00:00; last took 0.03 seconds
+Completed up to 2018-03-27 00:00:00; last took 0.03 seconds
+Completed up to 2018-04-10 00:00:00; last took 0.03 seconds
+Completed up to 2018-04-24 00:00:00; last took 0.04 seconds
+Completed up to 2018-05-08 00:00:00; last took 0.02 seconds
+Completed up to 2018-05-22 00:00:00; last took 0.02 seconds
+Completed up to 2018-06-05 00:00:00; last took 0.03 seconds
+Completed up to 2018-06-19 00:00:00; last took 0.03 seconds
+Completed up to 2018-07-03 00:00:00; last took 0.03 seconds
+Completed up to 2018-07-17 00:00:00; last took 0.02 seconds
+Completed up to 2018-07-31 00:00:00; last took 0.04 seconds
+Completed up to 2018-08-14 00:00:00; last took 0.04 seconds
+Completed up to 2018-08-28 00:00:00; last took 0.04 seconds
+Completed up to 2018-09-11 00:00:00; last took 0.04 seconds
+Trial completed in 1022.68 s
+Average MSE so far: 0.293 (0.002)
+Trial 5
+
+...............................................Completed up to 2018-01-01 00:00:00; last took 42.73 seconds
+Completed up to 2018-01-15 00:00:00; last took 0.03 seconds
+Completed up to 2018-01-29 00:00:00; last took 0.02 seconds
+Completed up to 2018-02-12 00:00:00; last took 0.04 seconds
+Completed up to 2018-02-26 00:00:00; last took 0.03 seconds
+Completed up to 2018-03-13 00:00:00; last took 0.05 seconds
+Completed up to 2018-03-27 00:00:00; last took 0.02 seconds
+Completed up to 2018-04-10 00:00:00; last took 0.02 seconds
+Completed up to 2018-04-24 00:00:00; last took 0.02 seconds
+Completed up to 2018-05-08 00:00:00; last took 0.04 seconds
+Completed up to 2018-05-22 00:00:00; last took 0.06 seconds
+Completed up to 2018-06-05 00:00:00; last took 0.03 seconds
+Completed up to 2018-06-19 00:00:00; last took 0.04 seconds
+Completed up to 2018-07-03 00:00:00; last took 0.05 seconds
+Completed up to 2018-07-17 00:00:00; last took 0.04 seconds
+Completed up to 2018-07-31 00:00:00; last took 0.06 seconds
+Completed up to 2018-08-14 00:00:00; last took 0.05 seconds
+Completed up to 2018-08-28 00:00:00; last took 0.02 seconds
+Completed up to 2018-09-11 00:00:00; last took 0.04 seconds
+Trial completed in 1107.60 s
+Average MSE so far: 0.293 (0.002)
+MSE and RMSE over 10 trials with standard deviation in parentheses
+Average MSE: 0.293 (0.002)
+Average RMSE: 0.542 (0.002)

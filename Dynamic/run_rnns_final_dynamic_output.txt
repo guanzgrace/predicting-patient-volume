@@ -1,0 +1,67 @@
+
+
+
+Dynamic-RNN-RespVisits-32-32
+Trial 1
+WARNING:tensorflow:From /home/ec2-user/venv/python3/local/lib/python3.6/site-packages/tensorflow/python/ops/resource_variable_ops.py:435: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+WARNING:tensorflow:From /home/ec2-user/venv/python3/local/lib/python3.6/site-packages/tensorflow/python/keras/utils/losses_utils.py:170: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+WARNING:tensorflow:From /home/ec2-user/venv/python3/local/lib/python3.6/site-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-07-05 22:02:18.318087: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-07-05 22:02:18.356341: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2300070000 Hz
+2019-07-05 22:02:18.359211: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x403b310 executing computations on platform Host. Devices:
+2019-07-05 22:02:18.359238: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+
+.........................................Trial completed in 345.97 s
+Average MSE so far: 0.445 (0.000)
+Trial 2
+
+..............................................Trial completed in 401.17 s
+Average MSE so far: 0.445 (0.001)
+Trial 3
+
+...........................................Trial completed in 375.36 s
+Average MSE so far: 0.443 (0.002)
+Trial 4
+
+............................................Trial completed in 388.52 s
+Average MSE so far: 0.443 (0.002)
+Trial 5
+
+...........................................Trial completed in 384.43 s
+Average MSE so far: 0.444 (0.002)
+MSE and RMSE over 10 trials with standard deviation in parentheses
+Average MSE: 0.444 (0.002)
+Average RMSE: 0.666 (0.002)
+
+
+
+Dynamic-RNN-NonRespVisits-32-32
+Trial 1
+
+.................................................Trial completed in 447.24 s
+Average MSE so far: 0.362 (0.000)
+Trial 2
+
+.............................................Trial completed in 410.12 s
+Average MSE so far: 0.360 (0.003)
+Trial 3
+
+............................................................Trial completed in 553.78 s
+Average MSE so far: 0.361 (0.003)
+Trial 4
+
+.........................................................Trial completed in 526.08 s
+Average MSE so far: 0.364 (0.005)
+Trial 5
+
+.........................................Trial completed in 394.21 s
+Average MSE so far: 0.363 (0.005)
+MSE and RMSE over 10 trials with standard deviation in parentheses
+Average MSE: 0.363 (0.005)
+Average RMSE: 0.602 (0.004)
